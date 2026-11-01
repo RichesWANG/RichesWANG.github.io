@@ -1,0 +1,13 @@
+.work-status{color:#027133;background:rgba(2,113,51,.07);padding:3px 7px;border-radius:4px;font-size:11px}
+.content-update{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);z-index:1000}
+.designer-reading #newEntrySide,.designer-reading [data-revise],.designer-reading [data-new-entry],.designer-reading [data-edit-entry],.designer-reading [data-delete-entry],.designer-reading .top-actions a[href="/admin/"]{display:none!important}
+.top-actions>a{white-space:nowrap;text-decoration:none}
+.edition{white-space:nowrap}
+@media(max-width:800px){.edition{display:none}.top-actions>a{font-size:12px;padding:8px}.topbar{gap:8px}.breadcrumb{min-width:0;flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.top-actions{flex-shrink:0}.search-trigger>span:nth-child(2){display:none}}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid #2f6df7;outline-offset:3px}
+/* 窄窗口保留关系图，改为纵向布局而非整块隐藏。 */
+.vision-lens .orbit-wrap{display:block}
+@media(max-width:640px){.vision-hero,.page-hero{margin-left:-18px;margin-right:-18px}.top-actions{gap:8px}.top-actions>a[href="/admin/"]{display:none}}
+@media(max-width:640px){.vision-lens .orbit-wrap{padding:15px 10px 12px}.vision-lens .orbit-node{font-size:9px;padding:4px;width:max-content;max-width:105px;white-space:nowrap;text-align:center}.vision-lens .orbit-node::before{width:3px;height:9px;margin-right:3px}.vision-lens .orbit-legend{top:19px;left:16px;font-size:9px}.vision-lens .orbit-node.pos,.vision-lens .orbit-legend span:first-child{display:none}.vision-lens .orbit-caption strong{font-size:14px}.vision-lens .orbit-caption p{font-size:11px}}
+
+@media(max-width:640px){main>.bar-field.strip{margin-left:-18px;margin-right:-18px}}
